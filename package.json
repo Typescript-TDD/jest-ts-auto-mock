@@ -1,0 +1,38 @@
+{
+  "name": "jest-ts-auto-mock",
+  "version": "1.0.0",
+  "description": "This is a library that extend [ts-auto-mock](https://github.com/uittorio/ts-auto-mock) to be used with jasmine",
+  "main": "index.js",
+  "files": [
+    "index.ts",
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "webpack --config config/webpack.build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "24.0.9",
+    "awesome-typescript-loader": "5.2.1",
+    "ts-auto-mock": "0.0.21",
+    "ttypescript": "1.5.6",
+    "typescript": "3.3.3333",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uittorio/jest-ts-auto-mock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uittorio/jest-ts-auto-mock/issues"
+  },
+  "homepage": "https://github.com/uittorio/jest-ts-auto-mock#readme"
+}

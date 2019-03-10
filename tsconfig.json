@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "baseUrl": "./"
+  }
+}

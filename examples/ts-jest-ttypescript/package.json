@@ -1,0 +1,40 @@
+{
+  "name": "ts-jest-ttypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:debug": "node --inspect node_modules/.bin/jest --watch"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>config.ts"
+    ],
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/src/.*|\\.(test))\\.(ts|tsx)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ],
+    "globals": {
+      "ts-jest": {
+        "compiler": "ttypescript"
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.9",
+    "jest": "24.1.0",
+    "ts-jest": "24.0.0",
+    "ttypescript": "1.5.6",
+    "typescript": "3.3.3333"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
