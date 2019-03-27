@@ -2,7 +2,6 @@
   "name": "jest-ts-auto-mock",
   "version": "0.0.4",
   "description": "This is a library that extend [ts-auto-mock](https://github.com/uittorio/ts-auto-mock) to be used with jasmine",
-  "main": "index.js",
   "files": [
     "index.ts",
     "index.d.ts"
