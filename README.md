@@ -35,15 +35,24 @@ We need to tell ts-jest to use ttypescript that allow us to use a transformer.
         }
     ```
 
-- provide jest-ts-auto-mock config before your test
+- provide jest-ts-auto-mock config before your test and exclude it from transformation
 ```ts
 "jest": {
     ...
     "setupFiles": [
-      "<rootDir>config.ts"
-    ],   
+      "<rootDir>/config.ts"
+    ],
+    "transformIgnorePatterns": [
+      "//jest-ts-auto-mock"
+    ],  
    ...
   },
+```
+
+- config file
+```ts
+import 'jest-ts-auto-mock'
+
 ```
 
 ## Examples
