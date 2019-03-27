@@ -3,8 +3,7 @@
   "version": "0.0.5",
   "description": "This is a library that extend [ts-auto-mock](https://github.com/uittorio/ts-auto-mock) to be used with jasmine",
   "files": [
-    "index.ts",
-    "index.d.ts"
+    "index.ts"
   ],
   "scripts": {
     "build": "webpack --config config/webpack.build.js",
