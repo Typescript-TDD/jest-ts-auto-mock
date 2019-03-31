@@ -1,6 +1,6 @@
 # Jest Ts Auto Mock
 
-This is a library that extend [ts-auto-mock](https://github.com/uittorio/ts-auto-mock) to be used with jasmine
+This is a library that extend [ts-auto-mock](https://github.com/uittorio/ts-auto-mock) to be used with jest
 
 The intention of the library is to automatically assign jest mock to functions giving you type safety
 
