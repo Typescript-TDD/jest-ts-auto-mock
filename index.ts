@@ -1,7 +1,7 @@
 import { MockFactory } from "ts-auto-mock";
 
 MockFactory.instance.registerFactory((name: string, value: any) => {
-	return jest.fn().mockResolvedValue(value);
+	return jest.fn().mockReturnValue(value);
 });
 
 type ReturnType = jest.Mock;

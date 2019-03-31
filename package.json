@@ -6,8 +6,7 @@
     "index.ts"
   ],
   "scripts": {
-    "build": "webpack --config config/webpack.build.js",
-    "prepublishOnly": "npm run build"
+    "build": "webpack --config config/webpack.build.js"
   },
   "directories": {
     "doc": "docs"
