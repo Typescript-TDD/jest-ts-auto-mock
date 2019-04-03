@@ -12,7 +12,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "ts-auto-mock": "0.0.21"
+    "ts-auto-mock": "0.0.24"
   },
   "devDependencies": {
     "@types/jest": "24.0.9",

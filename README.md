@@ -65,15 +65,24 @@ interface Interface {
     methodToMock: () => string
 }
 ```
-1) create a mock
+2) create a mock
 ```ts
 const mock: Interface = createMock<Interface>();
 ```
-2) get the method mock 
+3) get the method mock 
+
+You can get the method spy in 2 different ways
+
+Through method
 ```ts
-const mockMethod: Jest.Mock = On.Mock(mock).get(mockedMethod(mock => mock.methodToMock));
+const mockMethod: Jest.Mock = On.Mock(mock).get(method(mock => mock.methodToMock));
 ```
-3) trigger the method
+
+Through string
+```ts
+const mockMethod: Jest.Mock = On.Mock(mock).get(method('methodToMock));
+```
+4) trigger the method
 ```ts
 someMethodThatWillTriggerInterfaceA();
 expect(mockMethod).toHaveBeenCalled();
