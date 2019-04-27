@@ -75,11 +75,13 @@ You can get the method spy in 2 different ways
 
 Through method
 ```ts
+import { On, method } from "ts-auto-mock/extension";
 const mockMethod: Jest.Mock = On(mock).get(method(mock => mock.methodToMock));
 ```
 
 Through string
 ```ts
+import { On, method } from "ts-auto-mock/extension";
 const mockMethod: Jest.Mock = On(mock).get(method('methodToMock'));
 ```
 4) trigger the method

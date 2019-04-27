@@ -1,11 +1,11 @@
-import { MockFactory } from "ts-auto-mock";
+import { Provider } from "ts-auto-mock/extension";
 
-MockFactory.instance.registerFactory((_name: string, value: any) => {
+Provider.instance.provideMethod((_name: string, value: any) => {
 	return jest.fn().mockReturnValue(value);
 });
 
 type ReturnType = jest.Mock;
 
-declare module 'ts-auto-mock' {
-	interface MockMethod<TR> extends ReturnType {}
+declare module 'ts-auto-mock/extension' {
+	interface Method<TR> extends ReturnType {}
 }
