@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --clearCache && jest",
+    "test": "jest",
     "test:debug": "node --inspect node_modules/.bin/jest --watch"
   },
   "jest": {
@@ -28,11 +28,11 @@
     }
   },
   "devDependencies": {
-    "@types/jest": "24.0.20",
+    "@types/jest": "24.0.23",
     "jest": "24.9.0",
     "ts-jest": "24.1.0",
-    "ttypescript": "1.5.7",
-    "typescript": "3.6.4"
+    "ttypescript": "1.5.8",
+    "typescript": "3.7.2"
   },
   "author": "",
   "license": "ISC",

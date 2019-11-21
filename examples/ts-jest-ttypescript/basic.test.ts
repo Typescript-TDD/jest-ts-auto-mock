@@ -21,6 +21,6 @@ describe('names', () => {
 	it('should get the spy with the string', () => {
 		const mockMethod: jest.Mock = On(mock).get(method('a'));
 		mockMethod();
-		expect(mockMethod).toHaveBeenCalled();
+		expect(mockMethod).toHaveBeenCalledWith();
 	});
 });

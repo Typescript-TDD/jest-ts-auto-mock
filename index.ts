@@ -1,7 +1,7 @@
 import { Provider } from "ts-auto-mock/extension";
 
-Provider.instance.provideMethod((_name: string, value: any) => {
-	return jest.fn().mockReturnValue(value);
+Provider.instance.provideMethodWithDeferredValue((_name: string, value: () => any) => {
+	return jest.fn().mockImplementation(value);
 });
 
 type ReturnType = jest.Mock;
