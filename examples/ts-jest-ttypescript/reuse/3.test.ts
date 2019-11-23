@@ -5,6 +5,7 @@ describe('reuse', () => {
         a: string;
         b: number;
     }
+
 	let mock: Interface;
 
 	beforeEach(() => {
