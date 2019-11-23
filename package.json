@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uittorio/jest-ts-auto-mock.git"
+    "url": "git+https://github.com/Typescript-TDD/jest-ts-auto-mock.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uittorio/jest-ts-auto-mock/issues"
+    "url": "https://github.com/Typescript-TDD/jest-ts-auto-mock.git/issues"
   },
-  "homepage": "https://github.com/uittorio/jest-ts-auto-mock#readme"
+  "homepage": "https://github.com/Typescript-TDD/jest-ts-auto-mock.git#readme"
 }
