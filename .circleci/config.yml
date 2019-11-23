@@ -17,4 +17,4 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
       - run: npm run build
       - run: npm --prefix examples/ts-jest-ttypescript install
-      - run: npm  npm --prefix examples/ts-jest-ttypescript run test
+      - run: npm --prefix examples/ts-jest-ttypescript test
