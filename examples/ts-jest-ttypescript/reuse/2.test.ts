@@ -1,10 +1,7 @@
 import { createMock } from "ts-auto-mock";
+import { Interface } from '../interface';
 
 describe('reuse', () => {
-    interface Interface {
-        a: string;
-        b: number;
-    }
 	let mock: Interface;
 
 	beforeEach(() => {
