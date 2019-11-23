@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "clearCache": "jest --clearCache",
-    "test:debug": "node --inspect node_modules/.bin/jest --watch"
+    "clearCache": "jest --clearCache"
   },
   "jest": {
     "setupFiles": [

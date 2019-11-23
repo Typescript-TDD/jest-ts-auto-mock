@@ -21,8 +21,7 @@ jobs:
       run: |
         npm install
         npm run build
-        cd examples/ts-jest-ttypescript
-        npm install
-        npm run test
+        npm --prefix examples/ts-jest-ttypescript install
+        npm --prefix examples/ts-jest-ttypescript test
       env:
         CI: true
