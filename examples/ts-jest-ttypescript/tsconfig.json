@@ -16,7 +16,7 @@
     ],
     "baseUrl": "./",
     "plugins": [
-      { "transform": "ts-auto-mock/transformer" }
+      { "transform": "ts-auto-mock/transformer", "debug": true }
     ]
   }
 }
