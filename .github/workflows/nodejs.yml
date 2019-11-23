@@ -20,8 +20,9 @@ jobs:
     - name: npm install and test
       run: |
         npm install
+        npm run build
         cd examples/ts-jest-ttypescript
         npm install
-        npm test
+        npm run test
       env:
         CI: true

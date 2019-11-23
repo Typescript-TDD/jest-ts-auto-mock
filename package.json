@@ -6,7 +6,7 @@
     "index.ts"
   ],
   "scripts": {
-    "build": "webpack --config config/webpack.build.js"
+    "build": "tsc index.ts --declaration"
   },
   "directories": {
     "doc": "docs"
@@ -16,12 +16,9 @@
   },
   "devDependencies": {
     "@types/jest": "24.0.23",
-    "awesome-typescript-loader": "5.2.1",
     "ts-node": "8.5.2",
     "ttypescript": "1.5.8",
-    "typescript": "3.7.2",
-    "webpack": "4.41.2",
-    "webpack-cli": "3.3.10"
+    "typescript": "3.7.2"
   },
   "repository": {
     "type": "git",
