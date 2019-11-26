@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:runInBand": "jest -i",
     "clearCache": "jest --clearCache"
   },
   "jest": {

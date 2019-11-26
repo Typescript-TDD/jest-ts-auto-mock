@@ -13,13 +13,15 @@ ts-jest@24.0.0
 
 - A Transformer needs to be provided at compile time.
 We need to tell ts-jest to use ttypescript that allow us to use a transformer.
-    - Add the transformer to your ts config 
+### IMPORTANT:
+- set "cacheBetweenTests" as false
+- Add the transformer to your ts config 
     ```ts   
     {
       "compilerOptions": {
         ...
         "plugins": [
-          { "transform": "ts-auto-mock/transformer" }
+          { "transform": "ts-auto-mock/transformer", "cacheBetweenTests": false }
         ]
       }
     }
