@@ -1,5 +1,8 @@
 # Jest Ts Auto Mock
 
+[![Actions Status](https://github.com/Typescript-TDD/jest-ts-auto-mock/workflows/Master/badge.svg)](https://github.com/Typescript-TDD/jest-ts-auto-mock/actions)
+
+
 This is a library that extend [ts-auto-mock](https://github.com/uittorio/ts-auto-mock) to be used with jest
 
 The intention of the library is to automatically assign jest mock to functions giving you type safety

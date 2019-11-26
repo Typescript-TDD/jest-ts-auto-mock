@@ -23,6 +23,6 @@ jobs:
         npm run build
         npm --prefix examples/ts-jest-ttypescript install
         npm --prefix examples/ts-jest-ttypescript test
-        npm --prefix examples/ts-jest-ttypescript test:runInBand
+        npm --prefix examples/ts-jest-ttypescript run test:runInBand
       env:
         CI: true
