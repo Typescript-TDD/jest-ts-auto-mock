@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "examples/ts-jest-ttypescript/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
