@@ -16,7 +16,7 @@
     "ts-auto-mock": "1.4.1"
   },
   "devDependencies": {
-    "@types/jest": "24.0.23",
+    "@types/jest": "24.0.24",
     "ts-node": "8.5.4",
     "ttypescript": "1.5.8",
     "typescript": "3.7.2"
