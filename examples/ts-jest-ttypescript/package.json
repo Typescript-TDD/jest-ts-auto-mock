@@ -29,16 +29,16 @@
     }
   },
   "devDependencies": {
-    "@types/jest": "24.0.23",
+    "@types/jest": "24.0.24",
     "jest": "24.9.0",
     "jest-ts-auto-mock": "1.0.7",
     "ts-jest": "24.2.0",
     "ttypescript": "1.5.8",
-    "typescript": "3.7.2"
+    "typescript": "3.7.4"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts-auto-mock": "1.4.1"
+    "ts-auto-mock": "1.4.2"
   }
 }
