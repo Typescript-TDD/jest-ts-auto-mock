@@ -39,6 +39,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts-auto-mock": "1.4.2"
+    "ts-auto-mock": "1.4.3"
   }
 }
