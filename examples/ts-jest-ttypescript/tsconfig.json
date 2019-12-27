@@ -17,6 +17,9 @@
     "baseUrl": "./",
     "plugins": [
       { "transform": "ts-auto-mock/transformer", "cacheBetweenTests": false }
-    ]
+    ],
+    "paths": {
+      "jest-ts-auto-mock": ["../../index"]
+    }
   }
 }
