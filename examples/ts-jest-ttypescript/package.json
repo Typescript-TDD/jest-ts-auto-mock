@@ -29,11 +29,11 @@
     }
   },
   "devDependencies": {
-    "@types/jest": "24.0.25",
-    "jest": "24.9.0",
-    "ts-jest": "24.2.0",
-    "ttypescript": "1.5.8",
-    "typescript": "3.7.4"
+    "@types/jest": "25.1.2",
+    "jest": "25.1.0",
+    "ts-jest": "25.2.0",
+    "ttypescript": "1.5.10",
+    "typescript": "3.7.5"
   },
   "author": "",
   "license": "ISC",
