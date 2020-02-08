@@ -13,7 +13,7 @@
     "doc": "docs"
   },
   "peerDependencies": {
-    "ts-auto-mock": "^1.0.0"
+    "ts-auto-mock": "^1.5.0"
   },
   "devDependencies": {
     "@types/jest": "25.1.2",
