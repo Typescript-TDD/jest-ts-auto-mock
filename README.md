@@ -1,7 +1,7 @@
 # Jest Ts Auto Mock
 
 [![Actions Status](https://github.com/Typescript-TDD/jest-ts-auto-mock/workflows/Master/badge.svg)](https://github.com/Typescript-TDD/jest-ts-auto-mock/actions) 
-[![Greenkeeper badge](https://badges.greenkeeper.io/Typescript-TDD/jest-ts-auto-mock.svg)](https://greenkeeper.io/)
+
 
 
 This is a library that extend [ts-auto-mock](https://github.com/Typescript-TDD/ts-auto-mock/) to be used with jest
