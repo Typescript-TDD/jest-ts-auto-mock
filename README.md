@@ -16,7 +16,7 @@ ts-jest@24.0.0
 ## Installation
 
 - A Transformer needs to be provided at compile time.
-We need to tell ts-jest to use ttypescript that allow us to use a transformer.
+We need to tell ts-jest to use typescript that allow us to use a transformer.
 ### IMPORTANT:
 - set "cacheBetweenTests" as false
 - Add the transformer to your ts config 
