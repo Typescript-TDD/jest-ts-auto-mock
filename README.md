@@ -11,8 +11,7 @@ The intention of the library is to automatically assign jest mock to functions g
 ## Requirements
 
 typescript@^3.2.2<br>
-ts-jest@24.0.0
-
+ts-jest@>=24 <27
 ## Installation
 
 - A Transformer needs to be provided at compile time.
