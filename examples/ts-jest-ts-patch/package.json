@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:runInBand": "jest -i",
-    "ts-patch:install": "ts-patch install -s",
+    "prepare": "ts-patch install -s",
     "ts-patch:check": "ts-patch check",
     "ts-patch:help": "ts-patch /?",
     "clearCache": "jest --clearCache"
