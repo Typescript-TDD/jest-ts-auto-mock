@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest",
     "test:runInBand": "jest -i",
+    "ts-patch:install": "ts-patch install -s",
+    "ts-patch:check": "ts-patch check",
+    "ts-patch:help": "ts-patch /?",
     "clearCache": "jest --clearCache"
   },
   "jest": {
@@ -21,18 +24,13 @@
       "tsx",
       "js",
       "json"
-    ],
-    "globals": {
-      "ts-jest": {
-        "compiler": "ttypescript"
-      }
-    }
+    ]
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6",
     "ts-jest": "^27.0.4",
-    "ttypescript": "^1.5.12",
+    "ts-patch": "^1.4.2",
     "typescript": "^4.3.5"
   },
   "author": "",
