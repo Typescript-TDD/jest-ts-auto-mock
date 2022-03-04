@@ -29,10 +29,10 @@
     }
   },
   "devDependencies": {
-    "@types/jest": "^26.0.24",
-    "jest": "^27.0.6",
-    "ts-jest": "^27.0.4",
-    "ttypescript": "^1.5.12",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "ttypescript": "^1.5.13",
     "typescript": "^4.3.5"
   },
   "author": "",
