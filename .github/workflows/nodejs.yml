@@ -1,28 +1,32 @@
 name: Master
 
-on: [push]
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+
+  push:
+    branches: [master]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [10.x]
+        node-version: [16]
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install and test
-      run: |
-        npm ci
-        npm run build
-        npm --prefix examples/ts-jest-ttypescript ci
-        npm --prefix examples/ts-jest-ttypescript test
-        npm --prefix examples/ts-jest-ttypescript run test:runInBand
-      env:
-        CI: true
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm install and test
+        run: |
+          npm ci
+          npm run build
+          npm --prefix examples/ts-jest-ttypescript ci
+          npm --prefix examples/ts-jest-ttypescript test
+          npm --prefix examples/ts-jest-ttypescript run test:runInBand
+        env:
+          CI: true
