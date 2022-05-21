@@ -1,7 +1,7 @@
 {
   "name": "jest-ts-auto-mock",
   "version": "2.1.0",
-  "description": "This is a library that extend [ts-auto-mock](https://github.com/Typescript-TDD/ts-auto-mock) to be used with jasmine",
+  "description": "This is a library that extends [ts-auto-mock](https://github.com/Typescript-TDD/ts-auto-mock) to be used with jest",
   "files": [
     "index.d.ts",
     "index.js"
